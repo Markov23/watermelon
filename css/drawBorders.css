@@ -1,8 +1,8 @@
 
 .categoryWrapper {
-    width: 825px;
+    width: 800px;
 	height: 500px;
-	display: flex;
+	display:flex;
 	justify-content: center;
 	align-items: center;
 	position: relative;
@@ -188,3 +188,4 @@
 .categoryWrapper button:hover > span > span > span:after {
 	width: 100%;
 }
+

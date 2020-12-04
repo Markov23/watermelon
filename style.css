@@ -1,3 +1,6 @@
+/*@media only screen and (max-width: 700px) {
+
+}*/
 *{
     box-sizing: border-box;
     margin:0;
@@ -51,7 +54,8 @@ div.container h4{
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    padding: 20px 0;
+    padding: 20px 20px;
+    line-height: 3;
 }
 .nav-brand{
     width: 50px;
@@ -89,7 +93,7 @@ div.container h4{
 }
 .showcase img{
    width: auto;
-   height:300px;
+   height:200px;
 }
 /*header.showcase h4{
     font-family: 'Quicksand', sans-serif;
@@ -190,17 +194,20 @@ h3{
 /*CARDS TEMPORADA*/
 .cards-temporada{
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    max-width: 800px;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
     gap:5px;
-    padding-left: 15%;
-    padding-right: 15%;
-    justify-content: space-between;
-    margin: 50px 0 50px 0;
+    padding-left: 50%;
+    padding-right: 50%;
+    align-content: center;
+    justify-content: center;
+    justify-items: stretch;
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
-
 }
+
 /*.cards-temporada img{
     width: auto;
     height: 500px;
@@ -210,7 +217,7 @@ h3{
 .cards-banner-two{
     width: 100%;
     height: 200px;
-    /*background: url('./images/gift2.jpeg') no-repeat center center/cover;*/
+    background: url('./images/ver-catalogo.jpg') no-repeat center center/cover;
     min-width: 400px;
     background-attachment: fixed;
     background-position: 100%;
@@ -226,22 +233,22 @@ h3{
     cursor:pointer;
     display: inline-block;
     border:0;
-    font-weight: bold;
+    font-weight: 400;
     padding: 10px 20px;
-    background: #F096C1;
+    background: #f096c1f1;
     color: #ffffff;
     font-size: 20px;
-    border: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
     font-family: 'Quicksand', sans-serif;
     margin:10px 0;
 }
 .btn-catalogo:hover{
-    opacity: .9;
+    opacity: .6;
 
 }
 /*RECOMMEND-CARDS*/
 .txt-encabezado{
-    margin-top: 50px;
+    margin-top: 150px;
 }
 .recommend-cards{
     width: 100%;
@@ -253,6 +260,7 @@ h3{
     margin-top: 50px;
     margin-bottom: 250px;
     justify-content: space-between;
+    
 }
 .recommend-cards img{
     width: auto;
@@ -291,4 +299,12 @@ h3{
     margin: 0;
     padding:5px;
     text-align: center;
+}
+@media screen and (max-width:1410px){
+    .cards-temporada{
+        grid-template-columns: repeat(1,1fr);
+        
+        justify-content: center;
+        justify-items: center;
+    }
 }
