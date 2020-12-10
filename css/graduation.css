@@ -1,0 +1,49 @@
+.showcase-graduation{
+    width:100%;
+    height: 300px;
+    background:url('../images/graduacion.jpg') no-repeat center center/cover;
+    padding-bottom: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    margin-bottom: 40px;
+}
+.showcase-graduation h3{
+    font-size: 25px;
+    padding-left: 15%;
+    padding-right:15%;
+    margin: 0;
+}
+.eslogan-graduation p{
+    font-size: 25px;
+    padding-bottom: 50px;
+    padding-left: 15%;
+    padding-right:15%;
+}
+.eslogan-graduation span{
+    text-decoration: none;
+    box-shadow: inset 0 -.5em 0 rgba(142, 219, 155, 0.75);
+    color: inherit;
+}
+.cards-graduation{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;  
+    row-gap: 50px; 
+    justify-content: space-between; 
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.cards-graduation img{
+    width: auto;
+    height: 250px;
+}
+.cards-graduation p{
+    font-size: 20px;
+}
+.cards-graduation p.txt-money-graduation{
+    font-size: 25px;
+}

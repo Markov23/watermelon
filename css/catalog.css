@@ -1,32 +1,29 @@
 .showcase-catalog{
     width: 100%;
     height: 200px;
-    padding-bottom:10%;
+    padding-top:100px;
     display: flexbox;
-    align-content: center;
-    justify-content: right;
-    margin-bottom: 150px;
-    
+    align-content: left;
+    justify-content: left;
+    padding-bottom: 50px;
+    padding-left: 10%;
+    padding-right:10%;
 }
 .showcase-catalog h3{
-    text-align: left;
-    align-items: center;
     font-size: 25px;
-    padding-left: 15%;
-    margin: 0;
     color: #F096C1;
+    margin: 0;
+    padding: 0;
 }
 .showcase-catalog p{
-    width: 100%;
-    text-align: left;
-    align-items: center;
-    padding-left: 15%;
     font-size: 25px;
+    justify-content: left;
     margin: 0;
-    
+    padding: 0;
 }
-/*p{
+.showcase-catalog span{
     text-decoration: none;
     box-shadow: inset 0 -.5em 0 rgba(142, 219, 155, 0.75);
     color: inherit;
-}*/
+}
+
