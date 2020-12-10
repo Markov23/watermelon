@@ -1,0 +1,49 @@
+.showcase-xv{
+    width:100%;
+    height: 300px;
+    background:url('../images/xv.jpg') no-repeat center center/cover;
+    padding-bottom: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    margin-bottom: 40px;
+}
+.showcase-xv h3{
+    font-size: 25px;
+    padding-left: 15%;
+    padding-right:15%;
+    margin: 0;
+}
+.eslogan-xv p{
+    font-size: 25px;
+    padding-bottom: 50px;
+    padding-left: 15%;
+    padding-right:15%;
+}
+.eslogan-xv span{
+    text-decoration: none;
+    box-shadow: inset 0 -.5em 0 rgba(142, 219, 155, 0.75);
+    color: inherit;
+}
+.cards-xv{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;  
+    row-gap: 50px; 
+    justify-content: space-between; 
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.cards-xv img{
+    width: auto;
+    height: 250px;
+}
+.cards-xv p{
+    font-size: 20px;
+}
+.cards-xv p.txt-money-xv{
+    font-size: 25px;
+}

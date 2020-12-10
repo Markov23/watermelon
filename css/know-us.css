@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.showcase-conocenos{
+    width:100%;
+    height: 400px;
+    background:url('../images/balloonsHeart.jpg') no-repeat center center/cover;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.eslogan-conocenos{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.eslogan-conocenos p.bienvenido{
+    font-size: 25px;
+    font-weight: 600;
+}
+.eslogan-conocenos p{
+    font-size: 20px;
+}
+.eslogan-conocenos hr{
+    border-bottom:3px solid #F096C1;
+    width: 556px;
+    margin-top: 30px;
+}
+.eslogan-conocenos hr.line-eslogan{
+    margin-left: auto;
+    margin-right: auto;
+}
+span.txt-hightlighter {
+    margin: 0;
+    padding-bottom: 0;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: inset 0 -.5em 0 rgba(142, 219, 155, 0.75);
+    color: inherit;
+}
+.cards-info h5{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.cards-info{
+    display: grid;
+    grid-template-rows: no-repeat(3,25%);
+    grid-template-columns: repeat(3,33.33%);
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: stretch;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.cards-info img{
+    width: auto;
+    height: 400px;
+}
+.item1{
+     text-align: left;   
+}
+.item3{
+    text-align: right;
+}
+.item5 img{
+    justify-items: stretch;
+    margin:5px;
+}
+.item7{
+    text-align: left; 
+}
+.item9{
+    text-align: right;
+}
+.txt-proposito{
+    width: 100%;
+    justify-content: center;
+    text-align: left;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.cards-banner-justificacion{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.content{
+    width: 100%;
+    justify-content: center;
+    text-align: right;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.txt-valores-empresa{
+    width: 100%;
+    justify-content: center;
+    text-align: left;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+h5.txt-info{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.cards-valores{
+    width: 100%;
+    margin: 0;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    justify-content:center;
+    justify-items: center;
+}
+.cards-valores{
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    row-gap: 130px;
+
+}
+.cards-valores p span{
+    font-size: 18px;
+}
+
+
+@media screen and (max-width:1800px){
+    .cards-info{
+        grid-template-columns: repeat(1,100%);
+        justify-content: center;
+        justify-items: center;
+        
+    }
+    .item1,
+    .item3,
+    .item5,
+    .item7,
+    .item9{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .cards-valores{
+        grid-template-columns: repeat(2,50%);
+        justify-content: center;
+        justify-items: center;
+    }
+}

@@ -1,0 +1,50 @@
+
+.showcase-san-valentin{
+    width:100%;
+    height: 300px;
+    background:url('../images/valentinBanner.jpeg') no-repeat center center/cover;
+    padding-bottom: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    margin-bottom: 40px;
+}
+.showcase-san-valentin h3{
+    font-size: 25px;
+    padding-left: 15%;
+    padding-right:15%;
+    margin: 0;
+}
+.eslogan-san-valentin p{
+    font-size: 25px;
+    padding-bottom: 50px;
+    padding-left: 15%;
+    padding-right:15%;
+}
+.eslogan-san-valentin span{
+    text-decoration: none;
+    box-shadow: inset 0 -.5em 0 rgba(142, 219, 155, 0.75);
+    color: inherit;
+}
+.cards-san-valentin{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;  
+    row-gap: 50px; 
+    justify-content: space-between; 
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.cards-san-valentin img{
+    width: auto;
+    height: 250px;
+}
+.cards-san-valentin p{
+    font-size: 20px;
+}
+.cards-san-valentin p.txt-money-recommend{
+    font-size: 25px;
+}

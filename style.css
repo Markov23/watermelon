@@ -83,7 +83,7 @@ div.container h4{
 /*SHOWCASE*/
 .showcase{
     width:100%;
-    height: 800px;
+    height: 550px;
     background:url('images/gift3.jpeg') no-repeat center center/cover;
     padding-bottom: 8%;
     display: flex;
@@ -148,6 +148,7 @@ img.sandia-icon{
 /*SUB y NEW CARDS*/
 h3{
     margin-left: 15%;
+    margin-right: 15%;
     padding-top: 150px;
     font-size: 20px;
     padding-bottom: 50px;
@@ -159,7 +160,8 @@ h3{
     gap:40px;
     padding-left: 15%;
     padding-right: 15%;
-    justify-content: space-between;
+    justify-content:center;
+    justify-items: stretch;
 }
 .news-cards img{
     width:auto;
