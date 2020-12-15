@@ -2,7 +2,6 @@
     width:100%;
     height: 300px;
     background:url('../images/mother-day.jpeg') no-repeat center center/cover;
-    padding-bottom: 8%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,11 +9,9 @@
     background-attachment: fixed;
     margin-bottom: 40px;
 }
-.showcase-mothers-day h3{
-    font-size: 25px;
-    padding-left: 15%;
-    padding-right:15%;
-    margin: 0;
+.showcase-mothers-day img{
+    width: auto;
+    height: 100px;
 }
 .eslogan-mothers-day p{
     font-size: 25px;
