@@ -3,7 +3,6 @@
     width:100%;
     height: 300px;
     background:url('../images/cumpleaños.jpg') no-repeat center center/cover;
-    padding-bottom: 8%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,11 +10,9 @@
     background-attachment: fixed;
     margin-bottom: 40px;
 }
-.showcase-birthday h3{
-    font-size: 25px;
-    padding-left: 15%;
-    padding-right:15%;
-    margin: 0;
+.showcase-birthday img{
+    width: auto;
+    height: 150px;
 }
 .eslogan-birthday p{
     font-size: 25px;
