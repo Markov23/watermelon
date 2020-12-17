@@ -30,7 +30,7 @@
     flex-wrap: wrap;
     gap: 10px;  
     row-gap: 50px; 
-    justify-content: space-between; 
+    justify-content: space-around; 
     padding-left: 15%;
     padding-right: 15%;
 }
