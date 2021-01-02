@@ -12,6 +12,10 @@
     align-items: center;
     justify-content: center;
 }
+.showcase-conocenos img{
+    width: auto;
+    height: 100px;
+}
 .eslogan-conocenos{
     width: 100%;
     justify-content: center;
@@ -25,6 +29,7 @@
     font-size: 25px;
     font-weight: 600;
 }
+
 .eslogan-conocenos p{
     font-size: 20px;
 }
@@ -140,24 +145,38 @@ h5.txt-info{
 
 
 @media screen and (max-width:1800px){
+    .eslogan-conocenos p.bienvenido{
+        font-size: 40px;
+    }
+    .eslogan-conocenos p{
+        font-size: 40px;
+    }
     .cards-info{
         grid-template-columns: repeat(1,100%);
         justify-content: center;
         justify-items: center;
         
     }
-    .item1,
     .item3,
-    .item5,
     .item7,
     .item9{
-        font-size: 20px;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        font-size: 40px;
+        padding-top: 20px;
+    padding-bottom: 20px;
+    }
+    span.txt-hightlighter{
+       font-size: 50px;  
+    }
+    h5.txt-info{
+        font-size: 43px;
+        text-justify: newspaper;
     }
     .cards-valores{
         grid-template-columns: repeat(2,50%);
         justify-content: center;
         justify-items: center;
+    }
+    .cards-valores p span{
+        font-size: 40px;
     }
 }

@@ -28,17 +28,18 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;  
-    row-gap: 50px; 
-    justify-content: space-between; 
+    gap: 20px;
+    row-gap: 20px;
     padding-left: 15%;
     padding-right: 15%;
+    justify-content: left;
 }
 .cards-christmas img{
-    width: auto;
+    width:auto;
     height: 250px;
 }
 .cards-christmas p{
+    width:15em;
     font-size: 20px;
 }
 .cards-christmas p.txt-money-christmas{

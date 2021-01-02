@@ -51,7 +51,8 @@ div.container h4{
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    padding: 20px 0;
+    padding: 20px 20px;
+    line-height: 3;
 }
 .nav-brand{
     width: 50px;
